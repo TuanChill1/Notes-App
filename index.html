@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>App Notes</title>
+</head>
+<body>
+    <div class="app">
+        <p class="name-app">Smart Notes</p>
+        <div class="main">
+            <div class="add-note">
+                <p class="header-text">Add Note</p>
+                <div class="content">
+                    <input class="input-title" placeholder="Note title" type="text">
+                    <textarea class="input-content" name="content" placeholder="Note Details" cols="30" rows="10"></textarea>
+                </div>
+                <button class="add-btn">Add Note</button>
+                <button class="edit-submit hide">Edit</button>
+            </div>
+            <div class="note-list">
+                <div class="header">
+                    <p class="header-text">Your Notes</p>
+                    <button class="clear-notes">Delete all notes</button>
+                </div>
+                <p class="status-none hide">No notes added. Please add a note!</p>
+                <ul  class="notes">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
